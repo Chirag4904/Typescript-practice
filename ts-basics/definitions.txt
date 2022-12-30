@@ -1,3 +1,15 @@
 Type annotations -> Code we add to tell TS what type of value a variable will refer to (we tell Ts)
 
 Type inference -> TS automatically tries to figure out what type of value a variable refers to (TS does on its own)
+
+
+variable declaration         variable initialization
+     const color          =          "red";
+if declaration and initialization are on the same line then Typescript will automatically figure out the type of color(var)
+
+we rely on type inference alwayss!!
+
+we rely on type annotations especially on 
+1 -> when variable is declared and is initialized later;
+2 -> when we want a variable to have a type that can't be inferred
+3 -> when a function return "any" type and we need to clarify the value
