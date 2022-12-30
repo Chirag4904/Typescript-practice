@@ -13,3 +13,6 @@ we rely on type annotations especially on
 1 -> when variable is declared and is initialized later;
 2 -> when we want a variable to have a type that can't be inferred
 3 -> when a function return "any" type and we need to clarify the value
+
+
+# Typed arrays -> Arrays where each element is some consistent type of value 
