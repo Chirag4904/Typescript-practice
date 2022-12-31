@@ -16,3 +16,7 @@ we rely on type annotations especially on
 
 
 # Typed arrays -> Arrays where each element is some consistent type of value 
+
+# tuples -> Array like structure where each element represents some property of record
+
+# Interfaces -> Creates a new type, describing the property names and value types of an object 
